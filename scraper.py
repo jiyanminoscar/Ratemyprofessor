@@ -3,7 +3,7 @@ import string
 import unicodedata
 import time
 import xml
-sudo pip install beautifulsoup4
+pip install beautifulsoup4
 
 headers = ["Name","Department","Total Ratings","Overall Quality","Easiness","Hot"]
 #Dictionary of school ids (keys) that map to tuple of school name and number of pages
