@@ -1,10 +1,7 @@
-import scraperwiki
-import string
-import unicodedata
-import time
-import xml
-pip install beautifulsoup4
+from lxml import html
 from bs4 import BeautifulSoup
+import requests
+import urllib2
 
 headers = ["Name","Department","Total Ratings","Overall Quality","Easiness","Hot"]
 #Dictionary of school ids (keys) that map to tuple of school name and number of pages
