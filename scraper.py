@@ -1,4 +1,7 @@
 import scraperwiki
+import string
+import unicodedata
+import time
 
 headers = ["Name","Department","Total Ratings","Overall Quality","Easiness","Hot"]
 #Dictionary of school ids (keys) that map to tuple of school name and number of pages
