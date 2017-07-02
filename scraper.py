@@ -1,3 +1,5 @@
+import scraperwiki
+
 headers = ["Name","Department","Total Ratings","Overall Quality","Easiness","Hot"]
 #Dictionary of school ids (keys) that map to tuple of school name and number of pages
 colleges = {"137":("Brown",24), "278":("Columbia",36), "298":("Cornell",104), "1339":("Dartmouth",12), "399":("Harvard",24), "1275":("UPennsylvania",30), "780":("Princeton",16), "1222":("Yale",23)}
