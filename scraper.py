@@ -3,11 +3,14 @@ import string
 import unicodedata
 import time
 import xml
-from bs4 import BeautifulSoup
-pip install beautifulsoup4
+
 import pip
+
 package_name='selenium'
 pip.main(['install', package_name])
+
+from bs4 import BeautifulSoup
+pip install beautifulsoup4
 
 headers = ["Name","Department","Total Ratings","Overall Quality","Easiness","Hot"]
 #Dictionary of school ids (keys) that map to tuple of school name and number of pages
