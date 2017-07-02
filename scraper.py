@@ -1,10 +1,9 @@
-#!/usr/bin/env python2.7
 import scraperwiki
 import string
 import unicodedata
 import time
 import xml
-from bs4 import BeautifulSoup
+installing bs4 using sudo
 
 headers = ["Name","Department","Total Ratings","Overall Quality","Easiness","Hot"]
 #Dictionary of school ids (keys) that map to tuple of school name and number of pages
