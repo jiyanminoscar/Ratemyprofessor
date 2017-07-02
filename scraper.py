@@ -3,7 +3,6 @@ import string
 import unicodedata
 import time
 import xml
-python get-pip.py
 pip install beautifulsoup4
 from bs4 import BeautifulSoup
 
