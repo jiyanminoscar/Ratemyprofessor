@@ -2,7 +2,9 @@ import scraperwiki
 import string
 import unicodedata
 import time
-import BeautifulSoup
+import xml
+import html
+from bs4 import BeautifulSoup
 
 headers = ["Name","Department","Total Ratings","Overall Quality","Easiness","Hot"]
 #Dictionary of school ids (keys) that map to tuple of school name and number of pages
