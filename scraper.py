@@ -3,7 +3,6 @@ import string
 import unicodedata
 import time
 import xml
-import html
 from bs4 import BeautifulSoup
 
 headers = ["Name","Department","Total Ratings","Overall Quality","Easiness","Hot"]
