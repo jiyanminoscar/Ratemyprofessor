@@ -1,11 +1,10 @@
-pip install requests
-
 import scraperwiki
 import string
 import unicodedata
 import time
 import xml
-sudo pip install beautifulsoup4
+python get-pip.py
+pip install beautifulsoup4
 from bs4 import BeautifulSoup
 
 headers = ["Name","Department","Total Ratings","Overall Quality","Easiness","Hot"]
