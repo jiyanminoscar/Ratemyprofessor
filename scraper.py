@@ -3,7 +3,7 @@ import string
 import unicodedata
 import time
 import xml
-pip install beautifulsoup4
+sudo pip install beautifulsoup4
 from beautifulsoup4 import BeautifulSoup
 
 headers = ["Name","Department","Total Ratings","Overall Quality","Easiness","Hot"]
